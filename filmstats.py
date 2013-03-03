@@ -5,7 +5,7 @@ import re
 import sys
 import numpy
 #kommentar von alex
-
+#und kommentar von Martin
 z= imdb.IMDb(accesSystem='http')
 
 run_controller =  sys.argv[1]
