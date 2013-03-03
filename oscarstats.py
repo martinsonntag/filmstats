@@ -14,3 +14,9 @@ def get_no_oscars(id):
 			if t[s]['award'] == 'Oscar' and t[s]['result'] == 'Won' and t[s]['assigner'] == 'Academy Awards, USA' :
 				d=d+1
 	return d
+
+
+def get_rating(id):
+	t = z.get_movie(id)
+	rating = t['rating']
+	return rating
