@@ -5,7 +5,6 @@ import re
 import sys
 import numpy
 
-####this is the working branch for developing
 z= imdb.IMDb(accesSystem='http')
 
 run_controller =  sys.argv[1]
