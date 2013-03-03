@@ -4,6 +4,7 @@ from pylab import *
 import re
 import sys
 import numpy
+#kommentar von alex
 
 z= imdb.IMDb(accesSystem='http')
 
