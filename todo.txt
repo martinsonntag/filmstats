@@ -1,0 +1,10 @@
+average runtime of top250
+
+number of oscars over IMDb user rating
+
+histogram
+    intervall of 15min
+    starting at t=61min
+    61min - 75min, 76min - 90min, ..., 226min - 240min
+    oscars(intervall) = sum(oscars(movie_of_length(intervall)))
+    imdb_ratings(intervall) = sum(imdb_ratings(movie_of_length(intervall)))
